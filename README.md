@@ -1,2 +1,2 @@
-# ConnectAPI
-A python lib for the Feuersoftware Connect API
+# Feuersoftware
+A python lib for Feuersoftware
