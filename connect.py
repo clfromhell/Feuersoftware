@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 #-*- coding: UTF-8 -*-
+import logging
+import requests
+import json
 
 class API:
 
@@ -16,7 +19,7 @@ class API:
             'content-type': 'application/json',
         }
         
-    def set_api_token(self, token=None, tokenfile=None)
+    def set_api_token(self, token=None, tokenfile=None):
         if token: # token passed dirctly as a string
             token = token.strip()
         elif tokenfile: # a path to a tokenfile ist passed
